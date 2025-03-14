@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Events</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <h1>JoinFest.com</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="upcoming.html">Upcoming Events</a></li>
+                <li><a href="create.html">Create Events</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+                <li><a href="admin.html">Admin Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Create an Event</h2>
+        <form method="post" action="submit_event.php" class="create-form">
+            <label for="name">Event Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter event name"><br>
+            <label for="college">College Name:</label>
+            <input type="text" id="college" name="college" placeholder="Enter college name"><br>
+            <label for="date">Date:</label>
+            <input type="date" id="date" name="date"><br>
+            <label for="description">One-line Description:</label>
+            <input type="text" id="description" name="description" placeholder="Enter a short description"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter contact email"><br>
+            <label for="phone">Mobile No:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter mobile number"><br>
+            <input type="submit" value="Submit">
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 JoinFest.com</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

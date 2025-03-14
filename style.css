@@ -1,0 +1,133 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.filter-form,
+.create-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 50%; /* Adjust the width to make it shorter */
+  margin: 0 auto; /* Center align the form */
+}
+/*
+.event-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.event-card {
+  background-color: #ffcc00; 
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: calc(33% - 40px);
+}
+
+.featured-events .event-card {
+  background-color: #ff6600; 
+}
+
+.event-card-vertical {
+  background-color: #ff6600;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  width: 100%; 
+}
+
+.event-card:hover,
+.event-card-vertical:hover {
+  transform: scale(1.05);
+}
+
+.view-more {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}*/
+.featured-events {
+  text-align: center;
+  color: #ffffff;
+  background-color: #121212;
+  padding: 40px 20px;
+}
+
+.carousel-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.event-card-vertical {
+  background: #1e1e1e;
+  border-radius: 12px;
+  padding: 20px;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.event-card-vertical:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 15px rgba(255, 255, 255, 0.2);
+}
+
+.event-card-vertical h3 {
+  color: #ffcc00;
+  margin-bottom: 10px;
+}
+
+.event-card-vertical .college {
+  color: #bbb;
+  font-style: italic;
+}
+
+.event-card-vertical .date {
+  font-weight: bold;
+  color: #ff5757;
+}
+
+.event-card-vertical .description {
+  margin: 10px 0;
+  color: #ddd;
+}
+
+.view-more {
+  display: inline-block;
+  text-decoration: none;
+  background: #ffcc00;
+  color: #121212;
+  padding: 8px 12px;
+  border-radius: 6px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.view-more:hover {
+  background: #ffdd33;
+}
+
+.no-events {
+  color: #ff6666;
+  font-size: 1.2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+}
